@@ -1,0 +1,23 @@
+Advance Excel Assignment 2
+
+1. What does the dollar ($) sign do?
+Ans: It’s needed to make an absolute cell reference.
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+Ans: We can use the '$' sign before the row or column letter to make it absolute.
+
+3. Explain the order of operations in excel?
+Ans: i) Parentheses, ii) Exponents, iii) Multiplication, iv) Division, v) Addition, vi) Subtraction
+
+4. What, according to you, are the top 5 functions in excel, and write a basic syntax for any of two?
+Ans: i) SUM [ =SUM(range)], ii) AVERAGE [=AVERAGE(range)], iii) VLOOKUP, iv) IF, v) COUNTIF
+
+5. When would you use the subtotal function?
+Ans: When we want to do a calculation on the filtered cells. (Ex: Average, Sum, Count)
+
+6. What is the syntax of the VLOOKUP function? Explain the terms in it?
+Ans: Syntax “ = =VLOOKUP(lookup_value, table_array, col_index_num, range_lookup)
+	Lookup_value = what we want to lookup
+	table_array = where you want to look for it
+	col_index_num = the column number in the range containing the value to return
+	range_lookup = return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE
